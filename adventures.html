@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adventures</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #00c6ff, #0072ff);
+        color: white;
+    }
+
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        background: rgba(0,0,0,0.3);
+        padding: 15px;
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 18px;
+        padding: 8px 15px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        background: white;
+        color: #0072ff;
+        transform: scale(1.1);
+    }
+
+   
+    .hero {
+        text-align: center;
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 50px;
+        opacity: 10;
+    }
+
+  
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.15);
+        width: 280px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        backdrop-filter: blur(10px);
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        background: rgba(255,255,255,0.25);
+    }
+
+    .card h2 {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        opacity: 0.8;
+    }
+</style>
+
+</head>
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about me.html">About Me</a>
+    <a href="adventures.html">Adventures</a>
+
+</nav>
+
+<div class="hero">
+    <h1>My hiking adventure 🌍</h1>
+    <p>hiking is a wonderful outdoor activity that allows us to explore nature, stay active, and enjoy beautiful scenery. It teaches patience, resilience, and appreciation for the environment. Every trail offers a new adventure and an opportunity to create lasting memories.</p>  
+</div>
+
+<div class="container">
+
+    <img src="pic/hike.jpg">
+    <img src="pic/lake.jpg">
+    <img src="pic/sea.jpg">
+
+    
+</div>
+
+<footer>
+    © 2026 My Adventure Website
+</footer>
+
+</body>
+</html>
